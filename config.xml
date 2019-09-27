@@ -3,9 +3,9 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "ru.virte.flostat.app"
         versionCode = "10"
-        version     = "1.6.0">
+        version     = "1.7.0">
 
-    <name>virte.flostat.ru</name>
+    <name>Virtonomica</name>
 
     <description>
         Играй и выигрывай!
