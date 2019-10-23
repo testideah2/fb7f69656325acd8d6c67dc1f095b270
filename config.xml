@@ -3,9 +3,9 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android" 
         xmlns:cdv="http://cordova.apache.org/ns/1.0">
-        id          = "ru.flostat.app.virte"
+        id          = "flostat.app.virte"
         versionCode = "10"
-        version     = "1.11.0">
+        version     = "1.12.0">
 
     <name>Cards</name>
 
