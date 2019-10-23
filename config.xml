@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android" 
+        xmlns:cdv="http://cordova.apache.org/ns/1.0">
         id          = "ru.flostat.app.virte"
         versionCode = "10"
-        version     = "1.10.0">
+        version     = "1.11.0">
 
-    <name>Big win</name>
+    <name>Cards</name>
 
     <description>
         Играй и выигрывай!
@@ -29,6 +31,12 @@
 
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="SplashScreenSpinnerColor" value="#007BFF" />
+    
+    <platform name="android">
+      <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+          <application android:usesCleartextTraffic="true" />
+      </edit-config>
+    </platform>
 
 
     <platform name="android">
